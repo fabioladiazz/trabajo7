@@ -21,6 +21,6 @@ jobs:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
     - name: Build docker image
-      run: docker build -t fabidiaz/trabajo:v1 .
+      run: docker build -t fabidiazz/trabajo:v1 .
     - name: Docker push dockerhup
-      run: docker push fabidiaz/trabajo:v1
+      run: docker push fabidiazz/trabajo:v1
